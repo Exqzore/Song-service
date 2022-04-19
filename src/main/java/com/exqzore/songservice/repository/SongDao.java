@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface SongDao extends JpaRepository<Song, Long> {
-    List<Song> deleteAllByIdIn(List<Long> idValues);
+  List<Song> deleteAllByIdIn(List<Long> idValues);
 }

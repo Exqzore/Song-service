@@ -14,26 +14,26 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Accessors(chain = true)
 public class Song {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private Long id;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "id")
+  private Long id;
 
-    @Column(name = "name")
-    private String name;
+  @Column(name = "name")
+  private String name;
 
-    @Column(name = "artist")
-    private String artist;
+  @Column(name = "artist")
+  private String artist;
 
-    @Column(name = "album")
-    private String album;
+  @Column(name = "album")
+  private String album;
 
-    @Column(name = "length")
-    private String length;
+  @Column(name = "length")
+  private String length;
 
-    @Column(name = "resource_id")
-    private Long resourceId;
+  @Column(name = "resource_id")
+  private Long resourceId;
 
-    @Column(name = "year")
-    private Integer year;
+  @Column(name = "year")
+  private Integer year;
 }

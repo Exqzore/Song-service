@@ -10,6 +10,6 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @Accessors(chain = true)
 public class ErrorMessageDto {
-    private int errorCode;
-    private String errorMessage;
+  private int errorCode;
+  private String errorMessage;
 }

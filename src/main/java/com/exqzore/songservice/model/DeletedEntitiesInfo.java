@@ -10,6 +10,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class DeletedEntitiesInfo {
-    private List<Long> ids;
+  private List<Long> ids;
 }
 
