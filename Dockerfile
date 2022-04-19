@@ -1,3 +1,3 @@
 FROM amazoncorretto:17
-ADD build/libs/*SNAPSHOT.jar app.jar
-ENTRYPOINT ["java","-jar","app.jar"]
+ADD build/libs/*SNAPSHOT.jar song-service.jar
+ENTRYPOINT ["java","-jar","song-service.jar"]
