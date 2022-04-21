@@ -10,10 +10,10 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @Accessors(chain = true)
 public class SongDto {
-    private String name;
-    private String artist;
-    private String album;
-    private String length;
-    private Long resourceId;
-    private Integer year;
+  private String name;
+  private String artist;
+  private String album;
+  private String length;
+  private Long resourceId;
+  private Integer year;
 }

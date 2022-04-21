@@ -19,6 +19,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.6.5'
     implementation 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.1.0'
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter', version: '3.1.1'
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-contract-verifier', version: '3.1.1'
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-contract-gradle-plugin', version: '3.1.1', ext: 'pom'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
